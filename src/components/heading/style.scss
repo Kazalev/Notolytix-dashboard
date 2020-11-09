@@ -1,0 +1,57 @@
+.Heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 20px 40px;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    border-style: none;
+    width: 200px;
+    border-bottom: 1px solid black;
+        &:focus { outline: none }
+}
+
+.add-btn {
+    border-style: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #2eae01;
+    color: white;
+    width: 120px;
+    padding: 17px;
+        &:focus { outline: none }
+        &:hover { 
+            background: rgb(80, 133, 2);
+            cursor: pointer;
+        }
+}
+
+.btn-close {
+    border-style: none;
+    float: right;
+    border-radius: 5px;
+    &:hover { 
+        background: red;
+        cursor: pointer;
+    }
+}
+
+.btn-submit {
+    border-style: none;
+    border-radius: 5px;
+    &:hover { 
+        background: green;
+        cursor: pointer;
+    }
+}

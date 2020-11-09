@@ -1,0 +1,52 @@
+.project {
+    color: #b2b2b2;
+    padding-top: 30px;
+}
+
+.card {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-around;
+    // width: 100%;
+    border: 1px solid grey;
+    padding: 5px 10px 5px 30px;
+    margin: 0px 40px 0px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+    background: white;
+    margin-bottom: 15px;
+    .title {
+        padding-bottom: 15px;
+        border-bottom: 1px solid gray;
+        span {
+            font-size: 19px;
+        }
+    }
+}
+
+.replays {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    img {
+        margin: 10px 20px 10px 20px;
+    }
+    .info {
+        display: inline;
+        position: absolute;
+        padding-top: 3px;
+    }
+}
+
+.title span, .name {
+    color: #000;
+    font-weight: 500;
+}
+
+.message {
+    color: #0645AD;      
+}
